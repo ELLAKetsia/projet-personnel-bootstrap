@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    background: rgb(48, 114, 175);
+    height: 100vh;
+}
+.nav{
+    width: 200px;
+    background: rgb(48, 114, 175);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 247, 247);
+    width: 100%;
+}
+    
+nav{
+    position: absolute;
+    height: 100%;
+      
+}
+.section{
+    display: flex;
+}
+    
+span{
+    color: orangered;
+}
+.entete p{
+    display: inline-block;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.entete{
+    height: 50px;
+    width: 180%;
+    margin: 15px;
+    
+}
+.entete a{
+    padding-left: 25px;
+    text-decoration: none;
+}
+th{
+    margin-left: 150px;
+}
